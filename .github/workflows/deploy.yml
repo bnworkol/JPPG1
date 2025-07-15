@@ -27,7 +27,7 @@ jobs:
       - name: Deploy to FTP server
         uses: SamKirkland/FTP-Deploy-Action@v4.3.0
         with:
-          ftp-server: ftp://jp-program.com:21
-          ftp-username: jpprogra
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          server: ftp://jp-program.com:21
+          username: jpprogra
+          password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist

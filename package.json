@@ -6,6 +6,6 @@
     "build": "your build command"
   },
   "dependencies": {
-    // your dependencies
+  "express": "^4.18.2",
+  "react": "^18.2.0"
   }
-}

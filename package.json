@@ -1,1 +1,11 @@
 
+{
+  "name": "jppg1",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "your build command"
+  },
+  "dependencies": {
+    // your dependencies
+  }
+}
